@@ -1,0 +1,214 @@
+.fi-rr-search-icon1 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.icon16 {
+  width: 24px;
+  height: 24px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.search1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+  display: none;
+}
+.searchbar1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-5xs)
+    var(--padding-5xs);
+}
+.fi-sr-calendar-icon8 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-img-menu4,
+.icon17 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon17 {
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+}
+.icon-img-menu4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+}
+.fi-sr-bell-icon1 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.text57 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.01em;
+  line-height: 136%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--neutral-white);
+  text-align: left;
+}
+.icon18,
+.notification-badge3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification-badge3 {
+  margin: 0 !important;
+  position: absolute;
+  top: -8px;
+  left: 13px;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-cyan-cyan-500);
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-7xs);
+  z-index: 1;
+}
+.icon18 {
+  width: 24px;
+  height: 24px;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.img-icon31 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+.icon-img-menu7,
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-img-menu7 {
+  border-radius: var(--br-5xs);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.menu2 {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.divider-icon1 {
+  position: relative;
+  width: 1px;
+  height: 40px;
+}
+.notif1 {
+  position: absolute;
+  margin: 0 !important;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background-color: var(--secondary-green-green-500);
+  border: 2px solid var(--neutral-white);
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  z-index: 0;
+}
+.avatar1 {
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  background-image: url(/public/avatar@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.jay-hargudson1,
+.manager1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.manager1 {
+  font-size: var(--text-s-medium-size);
+  line-height: 18px;
+  color: var(--neutral-black-black-400);
+}
+.name1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.icon20,
+.right1,
+.top-bar1,
+.user1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon20 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+}
+.right1,
+.top-bar1,
+.user1 {
+  justify-content: flex-start;
+}
+.user1 {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.right1,
+.top-bar1 {
+  gap: var(--gap-base);
+  color: var(--neutral-black-black-500);
+}
+.top-bar1 {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+  z-index: 6;
+  text-align: left;
+  font-size: var(--text-m-semibold-size);
+  color: var(--neutral-gray-gray-400);
+  font-family: var(--text-m-semibold);
+}

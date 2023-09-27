@@ -1,0 +1,72 @@
+.text68 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 600;
+}
+.tab5 {
+  border-radius: var(--br-7xs);
+  background-color: var(--primary-primary-50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-xs);
+  color: var(--primary-primary-500);
+}
+.text69 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.search-filter1,
+.tab6,
+.tabs1 {
+  display: flex;
+  flex-direction: row;
+}
+.tab6 {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--margin-9xs);
+  padding: var(--padding-7xs) var(--padding-xs);
+}
+.tab6 {
+  .active {
+    border-radius: var(--br-5xs);
+    background-color: var(--primary-primary-50);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-7xs) var(--padding-xs);
+    color: var(--primary-primary-500);
+  }
+}
+.search-filter1,
+.tabs1 {
+  margin-bottom: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.tabs1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-gray-gray-100);
+  overflow: hidden;
+  padding: var(--padding-9xs);
+}
+.search-filter1 {
+  text-decoration: none;
+  align-self: stretch;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--text-m-semibold-size);
+  color: var(--neutral-gray-gray-500);
+  font-family: var(--text-m-semibold);
+}

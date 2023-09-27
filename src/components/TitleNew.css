@@ -1,0 +1,57 @@
+.page1,
+.text59 {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.text59 {
+  align-self: stretch;
+  line-height: 32px;
+  font-weight: 600;
+}
+.page1 {
+  line-height: 20px;
+  font-weight: 500;
+}
+.fi-sr-caret-right-icon2 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.project-list3 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--neutral-gray-gray-500);
+}
+.breadcrumbs1 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--text-m-semibold-size);
+  color: var(--primary-primary-500);
+}
+.breadcrumbs1,
+.title2,
+.title3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.title3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.title2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--display-m-semibold-size);
+  color: var(--neutral-black-black-500);
+  font-family: var(--text-m-semibold);
+}
