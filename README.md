@@ -1,6 +1,6 @@
 # React E-commerce Application
 
-Welcome to our React E-commerce Application! This project is designed to provide an intuitive and efficient way to manage your e-commerce projects.
+Welcome to our React E-commerce Application! This project is designed to provide an intuitive and efficient way to manage e-commerce projects.
 ### Features:
 
 - **Project Progress Filtering:** Easily filter your projects by their progress status, making it a breeze to focus on what matters most at any given time.
